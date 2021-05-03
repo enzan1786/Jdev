@@ -18,7 +18,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter  {
 	
 	//BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
 	
-	private final String password = "$2a$10$MJsfQ.WTlMfyNKO4mm8X/ezGd3qMHil8LJDDk2kvvldYN.8xfoaha";
+	private final String password = "$2a$10$VE7.11cQxLfx6ayF7dbhhuII0ImvUhqWwwvRhI.BWzbW7d7Ue2iw6";
 	
 	@Bean
 	public PasswordEncoder passwordEncoder() {
